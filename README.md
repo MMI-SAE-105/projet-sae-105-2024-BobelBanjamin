@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : bobel
+- PRÉNOM : banjamin
+- GROUPE : A2
+- URL du site : https://regal-bonbon-5c8e2d.netlify.app
+- URL FIGMA : https://www.figma.com/design/1KxxNJonuKg8acDN8NRANL/Banjamin_BOBEL-PROJET_S1?node-id=42-5&t=Fp25LIvUJId5tIo6-1
