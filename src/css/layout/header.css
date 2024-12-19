@@ -1,0 +1,90 @@
+
+header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #E3572C;
+    position: relative;
+    z-index: 30;
+    transition: transform 0.3s ease-in-out
+}
+
+header nav {
+    width: 100vw;
+    height: 100vh;
+    background-color: #;
+    visibility: hidden;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 20;
+    transform: translateX(-100vw);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+header .open {
+    visibility: visible;
+    transform: translateX(0);
+    background-color: #FAF4DF;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding: 0rem 2rem;
+    position: relative;
+    top: 7rem;
+}
+
+header li {
+    padding: 1.5rem 0;
+}
+
+header li > a {
+    text-decoration: none;
+    color: #284630;
+    font-family: 'Coluna', condensed bold;
+    font-weight: bold;
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+header li:not(:first-child) {
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-image: linear-gradient(88deg, #E3572C 13.11%, #284630 68.41%, rgba(48, 110, 249, 0.50) 118.44%) 1;
+}
+
+
+.menu-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-toggle img {
+    width: 30px;
+    height: 30px;
+}
+
+button {
+    background: transparent;
+    border: none;
+}
+
+header langue {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.langue {
+    margin-left: 1rem;
+}
+
