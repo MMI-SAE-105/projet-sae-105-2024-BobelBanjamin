@@ -1,0 +1,81 @@
+/* styles.css */
+
+footer {
+    background-color: #E3572C; /* Couleur de fond orange */
+    color: white;
+    font-family: 'Arial', sans-serif;
+    padding: 1rem;
+}
+
+footer h1 {
+    color: #FAFAFA;
+    text-align: center;
+    font-family: Coluna;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+footer .logo {
+    width: 50px;
+    margin-bottom: 1rem;
+}
+
+footer .contact p {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+    
+}
+
+footer hr {
+    border: 1px solid white;
+    margin: 2rem 0;
+}
+
+footer .menu a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-size: 1rem;
+    
+}
+
+footer .menu a:hover {
+    text-decoration: underline;
+}
+
+footer .mmi-logo {
+    width: 100px;
+    margin: 2rem 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer .credits {
+    color: #F8F8F8;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+footer {
+    margin-top: auto;
+}
