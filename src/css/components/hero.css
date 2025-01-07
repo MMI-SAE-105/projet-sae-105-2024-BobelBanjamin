@@ -1,0 +1,52 @@
+.carousel__container {
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Ajuste la taille */
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel__items {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel__item {
+    min-width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 100px;
+}
+
+.image-carousel {
+    width: 100%;
+    height: auto;
+}
+
+.carousel__nav {
+    position: absolute;
+    bottom: 20px;  /* Positionner les flèches un peu plus bas */
+    left: 50%;  /* Centrer horizontalement */
+    transform: translateX(-50%);  /* Ajuster pour un véritable centrage */
+    display: flex;
+    justify-content: space-between;
+    width: 60%; /* Définir la largeur de la zone des boutons */
+}
+
+.carousel__button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    width: 80px;  /* Largeur augmentée */
+    height: 80px; /* Hauteur augmentée */
+    border-radius: 50%;  /* Bordure ronde */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;  /* Augmenter la taille de l'icône */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.carousel__button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}

@@ -2,3 +2,12 @@ img {
     max-width: 100%;
     height: auto;
 }
+
+.trailer {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 100px;
+}
+
