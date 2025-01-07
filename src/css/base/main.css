@@ -19,10 +19,10 @@ margin-bottom: -20px;
     background-color: #E9E5D5;
     padding: 2.25rem 3.30rem 1.5rem 3.30rem;
     font-size: 0.875rem;
-    margin: 0 auto 50px auto;
+    margin-bottom: 50px;
     font-family: 'Anybody', sans-serif;
-    max-width: calc(100% - 40px); /* 20px space on each side */
-    box-sizing: border-box;
+    margin: 20px;
+    margin-bottom: 50px;
 }
 
 .card .image_card {
@@ -72,5 +72,47 @@ margin-bottom: -20px;
     font-style: normal;
     line-height: normal;
     margin-bottom: 5px;
+    
 }
 
+.title_2 {
+    color: #284630;
+    font-family: Coluna;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding : 20px;
+
+}
+
+.orange {
+    color: #E3572C;
+    font-family: Coluna;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    padding : 20px;
+    margin-top: -95px;
+}
+
+.frise {
+    margin-top: -20px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.description {
+    padding: 60px;
+    color: #555;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 5px;
+    margin-top: -90px;
+}
