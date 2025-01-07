@@ -83,3 +83,9 @@ header langue {
     margin-left: 100px;
 }
 
+.langue__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: -250px;
+}   
