@@ -2,3 +2,75 @@ body {
     background-color: #FAF4DF; 
 }
 
+H1 {
+Color: #284630;
+text-align: center;
+font-family: Coluna;
+font-size: 92px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+margin-bottom: -20px;
+}
+
+.card_content {
+    border-radius: 41px;
+    background-color: #E9E5D5;
+    padding: 2.25rem 3.30rem 1.5rem 3.30rem;
+    font-size: 0.875rem;
+    margin: 0 auto 50px auto;
+    font-family: 'Anybody', sans-serif;
+    max-width: calc(100% - 40px); /* 20px space on each side */
+    box-sizing: border-box;
+}
+
+.card .image_card {
+    width: 512px;
+    height: 288px;
+    object-fit: cover;
+    border-radius:12px;
+}
+
+.card .title_card {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 12px 0 8px 0;
+    color: #333;
+}
+
+.card .text_card {
+    font-size: 14px;
+    color: #666;
+    margin: 0 16px 16px 16px;
+    line-height: 1.4;
+}
+
+
+.card_content {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.card .text_card {
+    font-size: 13px;
+    margin: 10px 20px 20px 20px;
+}
+
+.main__image {
+    margin-top: -20px;
+}
+
+.main__description {
+    padding: 20px;
+    color: #555;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+    margin-bottom: 5px;
+}
+
