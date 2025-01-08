@@ -116,3 +116,43 @@ margin-bottom: -20px;
     margin-bottom: 5px;
 }
 
+.accordion {
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.accordion-item {
+    border-bottom: 1px solid #ddd;
+}
+
+.accordion-header {
+    background-color: #f7f7f7;
+    color: #333;
+    padding: 15px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-header:hover {
+    background-color: #e0e0e0;
+}
+
+.accordion-content {
+    background-color: #fafafa;
+    display: none; /* Caché par défaut */
+    padding: 15px;
+    border-top: 1px solid #ddd;
+}
+
+.accordion-content p {
+    margin: 0;
+}
