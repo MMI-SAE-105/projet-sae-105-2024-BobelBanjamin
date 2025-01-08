@@ -152,16 +152,26 @@ a {
     background-color: #e0e0e0;
 }
 
+/* Gestion de l'ouverture avec transition */
 .accordion-content {
     background-color: #fafafa;
-    display: none; /* Caché par défaut */
-    padding: 15px;
+    max-height: 0; /* Caché par défaut */
+    overflow: hidden; /* Cache le contenu qui dépasse */
+    padding: 0 15px; /* Padding latéral pour éviter l'effet de "saut" */
     border-top: 1px solid #ddd;
+    transition: max-height 0.5s ease, padding 0.5s ease;
+}
+
+/* Lorsque l'accordéon est actif */
+.accordion-item.active .accordion-content {
+    max-height: 200px; /* Ajuste cette valeur selon le contenu */
+    padding: 15px;
 }
 
 .accordion-content p {
     margin: 0;
 }
+
 
 
 /* Section Contact */

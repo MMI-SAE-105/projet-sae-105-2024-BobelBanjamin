@@ -42,22 +42,22 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 
-document.addEventListener('DOMContentLoaded', function () {
-  const headers = document.querySelectorAll('.accordion-header');
+document.addEventListener('DOMContentLoaded', () => {
+  const accordionHeaders = document.querySelectorAll('.accordion-header');
 
-  headers.forEach(header => {
-      header.addEventListener('click', function () {
-          const content = this.nextElementSibling;
+  accordionHeaders.forEach(header => {
+      header.addEventListener('click', () => {
+          const item = header.parentElement;
 
-          // Ferme les autres contenus si on clique sur un autre titre
-          document.querySelectorAll('.accordion-content').forEach(item => {
-              if (item !== content) {
-                  item.style.display = 'none';
+          // Ferme les autres accordéons
+          document.querySelectorAll('.accordion-item').forEach(i => {
+              if (i !== item) {
+                  i.classList.remove('active');
               }
           });
 
-          // Bascule l'affichage du contenu cliqué
-          content.style.display = content.style.display === 'block' ? 'none' : 'block';
+          // Ouvre/Ferme l'accordéon cliqué
+          item.classList.toggle('active');
       });
   });
 });
