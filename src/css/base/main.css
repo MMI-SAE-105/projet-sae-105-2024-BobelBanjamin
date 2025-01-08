@@ -29,7 +29,8 @@ margin-bottom: -20px;
     width: 512px;
     height: 288px;
     object-fit: cover;
-    border-radius:12px;
+    border-top-left-radius:12px;
+    border-top-right-radius:12px;
 }
 
 .card .title_card {
@@ -46,6 +47,9 @@ margin-bottom: -20px;
     line-height: 1.4;
 }
 
+a {
+    text-decoration: none;
+}
 
 .card_content {
     padding: 0;
@@ -97,6 +101,7 @@ margin-bottom: -20px;
     text-transform: uppercase;
     padding : 20px;
     margin-top: -95px;
+    margin-bottom: -15px;
 }
 
 .frise {
@@ -114,6 +119,7 @@ margin-bottom: -20px;
     font-style: normal;
     line-height: normal;
     margin-bottom: 5px;
+    font-weight: 600; 
 }
 
 .accordion {
@@ -155,4 +161,195 @@ margin-bottom: -20px;
 
 .accordion-content p {
     margin: 0;
+}
+
+
+/* Section Contact */
+.contact-container {
+    max-width: 1000px;
+    margin: 50px auto;
+    background-color: #E9E5D5;
+    border-radius: 41px;
+    padding: 40px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.contact-container h1 {
+    color: #284630;
+    text-align: center;
+    font-family: Coluna;
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.main__description {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    color: #555;
+}
+
+/* Formulaire */
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+
+.contact-form {
+    flex: 1;
+    min-width: 300px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: 'Anybody', sans-serif;
+    color: #284630;
+    font-size: 14px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    font-family: 'Anybody', sans-serif;
+    font-size: 14px;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #E3572C;
+}
+
+.btn-submit {
+    background-color: #E3572C;
+    color: #FAF4DF;
+    padding: 10px 20px;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Anybody', sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin: auto;
+    align-items: center;
+    display: flex;
+}
+
+.btn-submit:hover {
+    background-color: #C9481D;
+}
+
+/* Informations */
+.contact-info {
+    flex: 1;
+    min-width: 300px;
+    background-color: #FAF4DF;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info .title_2 {
+    margin-bottom: 10px;
+    font-size: 28px;
+    color: #284630;
+}
+
+.contact-info .description {
+    margin-bottom: 8px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .contact-content {
+        flex-direction: column;
+    }
+
+    .contact-form, .contact-info {
+        min-width: 100%;
+    }
+}
+
+
+.titre_description {
+    padding: 30px;
+    color: #E3572C;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600; 
+    line-height: normal;
+    margin-bottom: -70px;
+}
+
+.titre_description_2 {
+    padding: 30px;
+    color: #E3572C;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 600; 
+    line-height: normal;
+    margin-bottom: -70px;
+    margin-top: -30px;
+}
+
+/* Page Erreur 404 */
+.error-container {
+    text-align: center;
+    padding: 100px 20px;
+    background-color: #FAF4DF;
+    font-family: 'Anybody', sans-serif;
+}
+
+.error-title {
+    font-size: 128px;
+    font-weight: bold;
+    color: #E3572C;
+    font-family: 'Coluna', sans-serif;
+    margin: 0;
+}
+
+.error-message {
+    font-size: 24px;
+    color: #284630;
+    margin: 20px 0;
+    font-family: 'Coluna', sans-serif;
+    text-transform: uppercase;
+}
+
+.error-description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-return {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #FAF4DF;
+    background-color: #E3572C;
+    border-radius: 12px;
+    text-decoration: none;
+    font-family: 'Anybody', sans-serif;
+    transition: background-color 0.3s ease;
+}
+
+.btn-return:hover {
+    background-color: #C9481D;
 }
